@@ -1,8 +1,10 @@
 # Medical-X-Ray-BLIP
 # MedBLIP - Image Captioning for Chest X-Ray Images
 
-This repository implements **BLIP (Bootstrapping Language-Image Pre-training)** for generating captions from chest X-ray images. BLIP is a powerful vision-language pre-training model capable of handling image-captioning tasks efficiently. This project focuses on medical imaging, specifically applying BLIP to the **Radiology Objects in COntext (ROCO)** dataset.
+This repository implements **BLIP (Bootstrapping Language-Image Pre-training)** for generating captions from chest X-ray images. BLIP is a powerful vision-language pre-training model capable of handling image-captioning tasks efficiently. This project focuses on medical imaging, specifically applying BLIP to the **Radiology Objects in COntext (ROCO)** dataset. 
+<img width="534" alt="Screenshot 2024-10-12 at 1 04 33 AM" src="https://github.com/user-attachments/assets/b2b261e7-63a3-49c1-91c3-d13bfb4f8f48">
 
+ 
 ## Features
 
 - **BLIP Model**: Uses state-of-the-art vision-language pre-training for image captioning.
@@ -12,7 +14,7 @@ This repository implements **BLIP (Bootstrapping Language-Image Pre-training)** 
 
 ## Dataset
 
-The project uses the **ROCO (Radiology Objects in COntext)** dataset, which contains radiology images and their corresponding text descriptions. The dataset can be obtained from [ROCO Dataset](https://github.com/allenai/medvqa).
+The project uses the **ROCO (Radiology Objects in COntext)** dataset, which contains radiology images and their corresponding text descriptions. The dataset can be obtained from [ROCO Dataset](https://www.kaggle.com/datasets/virajbagal/roco-dataset).
 
 ## Requirements
 
