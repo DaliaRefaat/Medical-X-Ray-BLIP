@@ -65,22 +65,4 @@ Follow these steps to install the required dependencies and set up the project:
 4. **Evaluation**:
     - Once training is complete, evaluate the model’s performance on the test set and generate captions for X-ray images.
 
-## Example
 
-Sample code to start training:
-```python
-# Start training
-for epoch in range(3):
-    print("Epoch:", epoch)
-    for idx, batch in enumerate(train_dataloader):
-        input_ids = batch.pop("input_ids").to(device)
-        pixel_values = batch.pop("pixel_values").to(device)
-
-        outputs = model(input_ids=input_ids, pixel_values=pixel_values, labels=input_ids)
-        loss = outputs.loss
-
-        loss.backward()
-        optimizer.step()
-        optimizer.zero_grad()
-
-    print("Loss:", loss.item())
